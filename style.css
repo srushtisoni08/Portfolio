@@ -1,0 +1,121 @@
+a{
+    text-decoration: none;
+    font-family: fantasy;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+.navlist{
+    text-align: end;
+    display: flex;
+    gap: 30px;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin-top: 0%;
+}
+.right, .left{
+    height: 2250px;
+}
+.right{
+    background: linear-gradient( -45deg,rgb(157, 42, 141), black 90%);
+    width: 30%;   
+    margin-right: 0%;
+}
+.left{
+    background-color: black;
+    width: 70%;
+}
+.container{
+    display: flex;
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin-right: 30px;
+}
+#text{
+    color: rgb(255, 255, 255);
+    margin-top: 15%;
+    margin-left: 5%;
+}
+#icons{
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 40px;
+}
+i{
+    color: rgb(255, 222, 251);
+}
+h1{
+    font-family: bold;
+}
+a:hover{
+    text-shadow: 10px 10px 10px rgb(144, 144, 144);
+    color: rgb(228, 228, 228);
+}
+.design .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 55%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+}
+.circle:nth-child(1){
+    background: linear-gradient(90deg, transparent, black 50%);
+    width: 38rem;
+}
+.circle:nth-child(2){
+    background-color: white;
+    width: 30rem;
+    background-image: url(pic_portfolio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 5rem white;
+}
+span{
+    animation: continuous 2s infinite
+}
+@keyframes continuous{
+    0%, 100% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+b{
+    font-size: x-large;
+    color: rgb(255, 222, 251);
+}
+p{
+    font-size: large;
+}
+.c{
+    background-image: url(gradient.jpeg);
+    background-repeat: no-repeat;
+    flex: 0 0 auto;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 10%;
+}
+.first{
+    height: 150px;
+    width: 150px;
+}
+.game{
+    text-align: center;
+}
+.c:hover{
+    box-shadow: 10px 10px 30px white;
+}
+#projects{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    row-gap: 30px;
+}
